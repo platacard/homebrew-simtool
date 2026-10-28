@@ -5,7 +5,7 @@ Simulators. The build is for Apple silicon (arm64).
 
 ```sh
 brew tap platacard/simtool
-brew trust --tap platacard/simtool   # Homebrew asks to trust a third-party tap before it loads its formulae
+brew trust platacard/simtool         # Homebrew loads a third-party tap's formulae only once it is trusted
 brew install simtool
 simtool doctor
 ```
